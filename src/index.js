@@ -8,6 +8,11 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 
+// React Bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import './index.css';
+
 // React Components
 import {
   Index,
