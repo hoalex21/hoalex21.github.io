@@ -13,11 +13,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './index.css';
 
-// React Components
-import {
-  Index,
-  About,
-} from './main.js';
+// Main Components
+import Index from './main/Index';
 
 
 const router = createBrowserRouter([
@@ -25,10 +22,6 @@ const router = createBrowserRouter([
     path: "/",
     element: <Index />
   },
-  {
-    path: "/about",
-    element: <About />
-  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
