@@ -7,7 +7,7 @@ import background from './media/background.mp4';
 
 export function IntroBackground() {
     return (
-        <video autoPlay muted loop playsinline className='w-100 vh-100 d-block object-fit-cover position-absolute z-index-1 mask-image-topdown-opacity'>
+        <video autoplay autoPlay muted loop playsinline className='w-100 vh-100 d-block object-fit-cover position-absolute z-index-1 mask-image-topdown-opacity'>
             <source src={background} type='video/mp4' />
         </video>
     );
