@@ -14,21 +14,21 @@ export function ExperienceText() {
                 <ExperienceCard
                     link='https://www.why.fit/'
                     src={whyfit}
-                    company='WhyFit'
+                    company='Full Stack Developer'
                     points={["Utilized REST API to communicate across WhyFit's endpoints and work with third-party applications such as Slack and Microsoft Teams", "Develop relational databases with PostgreSQL and Ruby On Rails", "Fromulate UI designs with team members to create positive user experiences"]}
-                    footer='Full Stack Developer | Mar 29 - Sep 17, 2021'
+                    footer='March 29 - September 17, 2021'
                 />
                 <ExperienceCard
                     link='https://www.holmanauto.com/'
                     src={holman}
-                    company='Holman'
+                    company='Quality Assurance Analyst'
                     points={["Implement automated test cases for multiple web applications using Tricentis Tosca", "Conduct manual integration and regression testing in DEV and QA environments before deploying to production", "Provide support for team members with testing and automation inqueries", "Communicate with various development and testing teams to troubleshoot problems"]}
-                    footer='Quality Assuarance Analyst | Apr 4 - Sep 16, 2022'
+                    footer='April 4 - September 16, 2022'
                 />
                 <ExperienceCard
                     company='Coming soon...'
-                    points={['Currently seeking for my third Drexel co-op.']}
-                    footer='Third CO-OP'
+                    points={['Currently seeking for my 3rd Drexel CO-OP']}
+                    footer='Spring - Summer, 2023'
                 />
             </div>
         </div>
@@ -40,7 +40,7 @@ function ExperienceCard(props) {
         <div className='col'>
             <div className='card h-100'>
                 <a href={props.link} target='_blank' rel='noreferrer'>
-                    <img className='card-img-top border-bottom h-rem-10 object-fit-contain' src={props.src} alt={props.company}></img>
+                    <img className='card-img-top border-bottom h-rem-10 object-fit-contain p-3' src={props.src} alt={props.company}></img>
                 </a>
                 <div className='card-body'>
                     <h5 className='card-title'>{props.company}</h5>
