@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.6584631f.css",
-    "main.js": "/static/js/main.7abdc592.js",
+    "main.js": "/static/js/main.42797c0e.js",
     "static/media/background.mp4": "/static/media/background.1a91cb3b32a539842dba.mp4",
     "static/media/Holman.png": "/static/media/Holman.da162da057171088e11e.png",
     "static/media/WhyFit.png": "/static/media/WhyFit.bc0365e17a71b9221518.png",
     "static/media/1655484593486.jpg": "/static/media/1655484593486.194dfa0a613ccbcdc5db.jpg",
     "index.html": "/index.html",
     "main.6584631f.css.map": "/static/css/main.6584631f.css.map",
-    "main.7abdc592.js.map": "/static/js/main.7abdc592.js.map"
+    "main.42797c0e.js.map": "/static/js/main.42797c0e.js.map"
   },
   "entrypoints": [
     "static/css/main.6584631f.css",
-    "static/js/main.7abdc592.js"
+    "static/js/main.42797c0e.js"
   ]
 }
