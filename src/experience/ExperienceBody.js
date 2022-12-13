@@ -11,9 +11,9 @@ import holman from '../media/Holman.png';
 
 export default function ExperienceBody() {
     return (
-        <div className='container mb-4'>
+        <div className='container'>
             <h1 className='display-5'>My Experience</h1>
-            <div className='row'>
+            <div className='row row-cols-1 row-cols-md-3'>
                 <ExperienceCard
                     link='https://www.why.fit/'
                     src={whyfit}
