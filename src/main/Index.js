@@ -6,7 +6,7 @@ import IntroBackground from '../intro/IntroBackground';
 import IntroBody from '../intro/IntroBody';
 import AboutBody from '../about/AboutBody';
 import ExperienceBody from '../experience/ExperienceBody';
-// import SkillsBody from '../skills/SkillsBody';
+import SkillsBody from '../skills/SkillsBody';
 
 
 export default function Index() {
@@ -16,7 +16,7 @@ export default function Index() {
             <IntroBody />
             <AboutBody />
             <ExperienceBody />
-            {/* <SkillsBody /> */}
+            <SkillsBody />
         </>
     );
 }
