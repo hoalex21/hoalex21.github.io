@@ -11,16 +11,22 @@ import {
 // React Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// CSS
 import './index.css';
 
-// Main Components
+// Custom Components
 import Index from './main/Index';
+import VeryBerry from './personal/VeryBerry';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Index />
+  },
+  {
+    path: "/veryberry",
+    element: <VeryBerry />
   },
 ]);
 

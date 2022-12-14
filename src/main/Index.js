@@ -7,6 +7,7 @@ import IntroBody from '../intro/IntroBody';
 import AboutBody from '../about/AboutBody';
 import ExperienceBody from '../experience/ExperienceBody';
 // import SkillsBody from '../skills/SkillsBody';
+import PersonalBody from '../personal/PersonalBody';
 import SocialBody from '../social/SocialBody';
 
 
@@ -18,6 +19,7 @@ export default function Index() {
             <AboutBody />
             <ExperienceBody />
             {/* <SkillsBody /> */}
+            <PersonalBody />
             <SocialBody />
         </>
     );
