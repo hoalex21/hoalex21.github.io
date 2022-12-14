@@ -7,7 +7,7 @@ export default function IntroBody() {
         <div className='container'>
             <div className='d-flex vh-100 text-center align-items-center'>
                 <div className='w-100'>
-                    <h1 className='display-1'>Alex Ho</h1>
+                    <h1 className='display-1 d-inline' id='name'>Alex Ho</h1>
                     <h2 className='display-6'>Portfolio</h2>
                 </div>
             </div>
