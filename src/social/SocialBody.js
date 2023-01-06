@@ -13,7 +13,7 @@ export default function SocialBody() {
             <h1 className='display-5'>Social Media</h1>
             <div className='row row-cols-lg-5 justify-content-md-center'>
                 <div className='col m-4'>
-                    <a href='https://github.com/Theguyat2012' target='_blank' rel='noreferrer'>
+                    <a href='https://github.com/hoalex21' target='_blank' rel='noreferrer'>
                         <img src={github} alt='GitHub Logo' className='w-100' />
                     </a>
                 </div>
