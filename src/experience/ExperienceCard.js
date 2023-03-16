@@ -10,10 +10,10 @@ export default function ExperienceCard(props) {
         <div className='col mb-4'>
             <div className='card h-100'>
                 <a href={props.link} target='_blank' rel='noreferrer'>
-                    <img className='card-img-top border-bottom h-rem-10 object-fit-contain p-3' src={props.src} alt={props.company}></img>
+                    <img className='card-img-top border-bottom h-rem-10 object-fit-contain p-3' src={props.src} alt={props.role}></img>
                 </a>
                 <div className='card-body'>
-                    <h5 className='card-title'>{props.company}</h5>
+                    <h5 className='card-title'>{props.role}</h5>
                     <ExperiencePoints
                         points={props.points}
                     />
