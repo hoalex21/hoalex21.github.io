@@ -4,6 +4,7 @@ import React from 'react';
 // Meida
 import github from '../media/github.png';
 import linkedin from '../media/linkedin.png';
+import leetcode from '../media/leetcode.webp';
 import expo from '../media/expo.png';
 
 
@@ -20,6 +21,11 @@ export default function SocialBody() {
                 <div className='col m-4'>
                     <a href='https://www.linkedin.com/in/alex-h-52923113a/' target='_blank' rel='noreferrer'>
                         <img src={linkedin} alt='Linkedin Logo' className='w-100' />
+                    </a>
+                </div>
+                <div className='col m-4'>
+                    <a href='https://leetcode.com/Aleton/' target='_blank' rel='noreferrer'>
+                        <img src={leetcode} alt='LeetCode Logo' className='w-100' />
                     </a>
                 </div>
                 <div className='col m-4'>
