@@ -18,7 +18,7 @@ import './index.css';
 // Custom Components
 import Index from './main/Index';
 import VeryBerry from './personal/VeryBerry';
-import CalTrak from './personal/CalTrak';
+import CalTrakr from './personal/CalTrakr';
 
 
 // const router = createBrowserRouter([
@@ -42,8 +42,8 @@ const router = createHashRouter([
     element: <VeryBerry />,
   },
   {
-    path: "/caltrak",
-    element: <CalTrak />,
+    path: "/caltrakr",
+    element: <CalTrakr />,
   },
 ]);
 
