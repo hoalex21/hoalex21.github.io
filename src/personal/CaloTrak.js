@@ -12,7 +12,7 @@ export default function CaloTrak() {
                 <br />
                 <h2 class='white'>Privacy Policy</h2>
                 <p>
-                    CalTrak is built using <a href="https://expo.dev/" target="_blank">expo</a>.
+                    CaloTrak is built using <a href="https://expo.dev/" target="_blank">expo</a>.
                     The only data collected are <a href="https://docs.expo.dev/regulatory-compliance/data-and-privacy-protection/" target="_blank">required by expo</a>.
                     Information that you provide on the app is not accessible by us.
                     The data is saved locally to your device.
