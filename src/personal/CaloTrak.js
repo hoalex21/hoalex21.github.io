@@ -11,11 +11,11 @@ export default function CaloTrak() {
             <IntroBackground />
             <Back />
             <Title title="CaloTrak" />
+            <div class="d-flex justify-content-center">
+                <img class="w-50" src={caltrak} />
+            </div>
             <div className='container bg-light'>
                 <br />
-                <div class="d-flex justify-content-center">
-                    <img class="w-25" src={caltrak} />
-                </div>
                 <h2>Description</h2>
                 <p>
                     A simple lightweight calorie tracking app.
