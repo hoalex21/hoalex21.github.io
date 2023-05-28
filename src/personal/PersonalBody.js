@@ -9,7 +9,14 @@ export default function PersonalBody() {
         <div className='container'>
             <h1 className='display-5'>Personal Projects</h1>
             <ul>
-                <li><Link to="calotrak">CaloTrak</Link> (May 2023)</li>
+                <li>
+                    <Link to="calotrak">CaloTrak</Link> (May 2023)
+                    <ul>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=com.aleton.CalorieTracker" target="_blank">Play Store</a>
+                        </li>
+                    </ul>
+                </li>
                 <li><Link to="veryberry">Very Berry</Link> (June 2020)</li>
             </ul>
         </div>
