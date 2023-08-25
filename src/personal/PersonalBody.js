@@ -10,6 +10,9 @@ export default function PersonalBody() {
             <h1 className='display-5'>Personal Projects</h1>
             <ul>
                 <li>
+                    <Link to="blubbydodge">Blubby Dodge</Link> (August 2023)
+                </li>
+                <li>
                     <Link to="calotrak">CaloTrak</Link> (May 2023)
                     <ul>
                         <li>

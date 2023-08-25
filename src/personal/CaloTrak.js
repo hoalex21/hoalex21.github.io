@@ -12,7 +12,7 @@ export default function CaloTrak() {
             <Back />
             <Title title="CaloTrak" />
             <div class="d-flex justify-content-center">
-                <img class="w-50" src={caltrak} />
+                <img class="w-25" src={caltrak} />
             </div>
             <div className='container bg-light'>
                 <br />
@@ -25,8 +25,11 @@ export default function CaloTrak() {
                     Calories do not reset after each day.
                     No registration is required.
                     The data is saved to your local device.
-                    View on the <a href="https://play.google.com/store/apps/details?id=com.aleton.CalorieTracker">Google Play Store</a>
+                    View on the <a href="https://play.google.com/store/apps/details?id=com.aleton.CalorieTracker">Google Play Store</a>.
                 </p>
+
+                <hr class="hr" />
+
                 <h2>Privacy Policy</h2>
                 <p>
                     CaloTrak is built using <a href="https://expo.dev/" target="_blank">expo</a>.

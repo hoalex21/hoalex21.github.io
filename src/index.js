@@ -19,6 +19,7 @@ import './index.css';
 import Index from './main/Index';
 import VeryBerry from './personal/VeryBerry';
 import CaloTrak from './personal/CaloTrak';
+import BlubbyDodge from './personal/BlubbyDodge';
 
 
 // const router = createBrowserRouter([
@@ -45,6 +46,10 @@ const router = createHashRouter([
     path: "/calotrak",
     element: <CaloTrak />,
   },
+  {
+    path: "/blubbydodge",
+    element: <BlubbyDodge />,
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
