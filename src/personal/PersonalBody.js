@@ -11,12 +11,17 @@ export default function PersonalBody() {
             <ul>
                 <li>
                     <Link to="blubbydodge">Blubby Dodge</Link> (August 2023)
+                    <ul>
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=com.aleton100100.blubbydodge" target="_blank">Google Play Store</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <Link to="calotrak">CaloTrak</Link> (May 2023)
                     <ul>
                         <li>
-                            <a href="https://play.google.com/store/apps/details?id=com.aleton.CalorieTracker" target="_blank">Play Store</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.aleton.CalorieTracker" target="_blank">Google Play Store</a>
                         </li>
                     </ul>
                 </li>
