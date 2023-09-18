@@ -3,6 +3,7 @@ import React from 'react';
 
 // Experience Components
 import ExperiencePoints from './ExperiencePoints';
+import ExperienceTools from './ExperienceTools';
 
 
 export default function ExperienceCard(props) {
@@ -16,6 +17,9 @@ export default function ExperienceCard(props) {
                     <h5 className='card-title'>{props.role}</h5>
                     <ExperiencePoints
                         points={props.points}
+                    />
+                    <ExperienceTools
+                        tools={props.tools}
                     />
                 </div>
                 <div className='card-footer'>{props.footer}</div>
