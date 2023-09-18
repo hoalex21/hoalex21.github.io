@@ -4,8 +4,7 @@ import React from 'react';
 // Meida
 import github from '../media/github.png';
 import linkedin from '../media/linkedin.png';
-import leetcode from '../media/leetcode.webp';
-import expo from '../media/expo.png';
+import itchio from '../media/itchio-textless-black.svg';
 
 
 export default function SocialBody() {
@@ -24,13 +23,8 @@ export default function SocialBody() {
                     </a>
                 </div>
                 <div className='col m-4'>
-                    <a href='https://leetcode.com/Aleton/' target='_blank' rel='noreferrer'>
-                        <img src={leetcode} alt='LeetCode Logo' className='w-100' />
-                    </a>
-                </div>
-                <div className='col m-4'>
-                    <a href='https://expo.dev/@aleton' target='_blank' rel='noreferrer'>
-                        <img src={expo} alt='Expo Logo' className='w-100' />
+                    <a href='https://aleton.itch.io' target='_blank' rel='noreferrer'>
+                        <img src={itchio} alt='Itch.io Logo' className='w-100' />
                     </a>
                 </div>
             </div>
