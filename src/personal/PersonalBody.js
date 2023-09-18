@@ -17,7 +17,7 @@ export default function PersonalBody() {
             <h1 className='display-5'>Personal Projects</h1>
 
             <div className='row row-cols-1 row-cols-md-3'>
-                <div className='col'>
+                <div className='col mb-4'>
                     <div className='card'>
                         <div className='card-header d-flex justify-content-center'>
                             <div className='w-50 d-flex justify-content-center'>
@@ -57,7 +57,7 @@ export default function PersonalBody() {
                     </div>
                 </div>
 
-                <div className='col'>
+                <div className='col mb-4'>
                     <div className='card'>
                         <div className='card-header d-flex justify-content-center'>
                             <div className='d-flex justify-content-center'>
@@ -90,7 +90,7 @@ export default function PersonalBody() {
                     </div>
                 </div>
 
-                <div className='col'>
+                <div className='col mb-4'>
                     <div className='card'>
                         <div className='card-body'>
                             <b><Link to="veryberry">Very Berry</Link></b>
