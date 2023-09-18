@@ -20,8 +20,8 @@ export default function BlubbyDodge() {
                 <br />
                 <h2>Description</h2>
                 <p>
+                    Your reflexes and quick thinking will be put to the ultimate test!
                     Challenge yourself to beat your high score with each run.
-                    Your reflexes and quick thinking will be put to the ultimate test.
                     The objective is simple yet exhilarating: dodge and weave through a barrage of pillars raining down from above.
                     As Blubby dashes along, players will immerse themselves in a colorful, cartoon-inspired setting with a touch of whimsy.
                     View on the <a href="https://play.google.com/store/apps/details?id=com.aleton100100.blubbydodge">Google Play Store</a>
