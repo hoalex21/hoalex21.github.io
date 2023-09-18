@@ -97,7 +97,7 @@ export default function PersonalBody() {
                             <p></p>
                             <p>
                                 A class project involving a group of 4.
-                                This space-shooter type game where you operate a strawberry vessel (using the W,A,S, and D keys to move and spacebar to shoot projectiles) and survive an onslaught of endless blueberry drones.
+                                This is a space-shooter type game where you operate a strawberry vessel (using the W,A,S, and D keys to move and spacebar to shoot projectiles) and survive an onslaught of endless blueberry drones.
                                 The boss - evil emoji guy - will appear if you survive long enough.
                             </p>
                         </div>
