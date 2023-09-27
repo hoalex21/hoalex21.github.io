@@ -93,8 +93,8 @@ export default function PersonalBody() {
 
                 <div className='col mb-4'>
                     <div className='card h-100'>
-                        <div className='card-header'>
-                            <img className='w-100' src={veryberry} />
+                        <div className='card-header p-0'>
+                            <img className='w-100 rounded-top' src={veryberry} />
                         </div>
                         <div className='card-body'>
                             <b><Link to="veryberry">Very Berry</Link></b>
