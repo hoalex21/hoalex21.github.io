@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 // Media
 import blubbydodge from '../media/blubbydodgeicon.png';
 import caltrak from '../media/caltrak1024x500.png';
+import veryberry from '../media/VeryBerry.png';
 import getItOnGooglePlay from '../media/google@2x.png';
 import itchio from '../media/itchio-textless-black.svg';
 
@@ -18,7 +19,7 @@ export default function PersonalBody() {
 
             <div className='row row-cols-1 row-cols-md-3'>
                 <div className='col mb-4'>
-                    <div className='card'>
+                    <div className='card h-100'>
                         <div className='card-header d-flex justify-content-center'>
                             <div className='w-50 d-flex justify-content-center'>
                                 <img className='w-100' src={blubbydodge} />
@@ -58,7 +59,7 @@ export default function PersonalBody() {
                 </div>
 
                 <div className='col mb-4'>
-                    <div className='card'>
+                    <div className='card h-100'>
                         <div className='card-header d-flex justify-content-center'>
                             <div className='d-flex justify-content-center'>
                                 <img className='w-100' src={caltrak} />
@@ -91,7 +92,10 @@ export default function PersonalBody() {
                 </div>
 
                 <div className='col mb-4'>
-                    <div className='card'>
+                    <div className='card h-100'>
+                        <div className='card-header'>
+                            <img className='w-100' src={veryberry} />
+                        </div>
                         <div className='card-body'>
                             <b><Link to="veryberry">Very Berry</Link></b>
                             <p></p>
