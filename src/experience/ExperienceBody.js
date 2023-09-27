@@ -42,7 +42,7 @@ export default function ExperienceBody() {
                     points={[
                         "Implement automated test cases for multiple web applications using Tricentis Tosca",
                         "Conduct manual integration and regression testing in DEV and QA environments before deploying to production",
-                        "Provide support for team members with testing and automation inqueries", "Communicate with various development and testing teams to troubleshoot problems"
+                        "Provide support for team members with testing and automation inquiries", "Communicate with various development and testing teams to troubleshoot problems"
                     ]}
                     tools={[
                         "Tricentis Tosca",
