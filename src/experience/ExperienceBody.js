@@ -58,7 +58,7 @@ export default function ExperienceBody() {
                     points={[
                         "Utilized REST API to communicate across WhyFit's endpoints and work with third-party applications such as Slack and Microsoft Teams",
                         "Develop relational databases with PostgreSQL and Ruby On Rails",
-                        "Fromulate UI designs with team members to create positive user experiences"
+                        "Formulate UI designs with team members to create positive user experiences"
                     ]}
                     footer='March 29 - September 17, 2021'
                     tools={[
