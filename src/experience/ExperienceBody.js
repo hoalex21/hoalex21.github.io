@@ -18,11 +18,11 @@ export default function ExperienceBody() {
                 <ExperienceCard
                     link='https://www.neuroflow.com/'
                     src={neuroflow}
-                    role="Backend Software Associate"
+                    role="Backend Software Developer Co-op"
                     points={[
                         "Developed asynchronous functionality for the notification microservice to poll and send messages from AWS SQS queue faster",
                         "Investigated and corrected defects discovered on web application",
-                        "wrote unit and integration tests for new code implementations",
+                        "Wrote unit and integration tests for new code implementations",
                         "Participated in code reviews for new software updates",
                         "Collaborated with DEV, QA and product teams to ensure that shipped code resulted in desired outcomes",
                     ]}
@@ -39,7 +39,7 @@ export default function ExperienceBody() {
                 <ExperienceCard
                     link='https://www.holmanauto.com/'
                     src={holman}
-                    role='Quality Assurance Analyst'
+                    role='Quality Assurance Analyst Co-op'
                     points={[
                         "Automated E2E test cases for internal and client facing applications using Tricentis Tosca",
                         "Conducted manual integration and regression testing in DEV and QA environments in an agile environment",
@@ -57,7 +57,7 @@ export default function ExperienceBody() {
                 <ExperienceCard
                     link='https://www.why.fit/'
                     src={whyfit}
-                    role='Full Stack Developer'
+                    role='Full Stack Developer Co-op'
                     points={[
                         "Utilized REST API to communicate across WhyFit's endpoints and work with third-party applications such as Slack and Microsoft Teams",
                         "Queried relational databases with PostgreSQL and Ruby On Rails",
