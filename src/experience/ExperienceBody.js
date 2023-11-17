@@ -20,18 +20,19 @@ export default function ExperienceBody() {
                     src={neuroflow}
                     role="Backend Software Associate"
                     points={[
-                        "Develop asynchronous functionality for the notification microservice to poll and send messages from AWS SQS queue",
-                        "Investigate and correct defects discovered on web application",
-                        "Write unit and integration tests for new code implementations",
-                        "Participate in code reviews for new software updates",
-                        "Collaborate with DEV, QA and product teams to ensure that shipped code results in desired outcomes",
+                        "Developed asynchronous functionality for the notification microservice to poll and send messages from AWS SQS queue faster",
+                        "Investigated and corrected defects discovered on web application",
+                        "wrote unit and integration tests for new code implementations",
+                        "Participated in code reviews for new software updates",
+                        "Collaborated with DEV, QA and product teams to ensure that shipped code resulted in desired outcomes",
                     ]}
                     tools={[
                         "Flask",
                         "Pytest",
                         "Gitlab",
-                        "AWS",
                         "Jira",
+                        "TerraForm",
+                        "AWS",
                     ]}
                     footer='April 3 - September 21, 2023'
                 />
@@ -40,14 +41,16 @@ export default function ExperienceBody() {
                     src={holman}
                     role='Quality Assurance Analyst'
                     points={[
-                        "Implement automated test cases for multiple web applications using Tricentis Tosca",
-                        "Conduct manual integration and regression testing in DEV and QA environments before deploying to production",
-                        "Provide support for team members with testing and automation inquiries", "Communicate with various development and testing teams to troubleshoot problems"
+                        "Automated E2E test cases for internal and client facing applications using Tricentis Tosca",
+                        "Conducted manual integration and regression testing in DEV and QA environments in an agile environment",
+                        "Upskilled colleagues in utilizing Tricentis Tosca",
+                        "Communicated with various development and testing teams to troubleshoot problems"
                     ]}
                     tools={[
                         "Tricentis Tosca",
                         "PostgreSQL",
                         "Microsoft TFS",
+                        "Excel",
                     ]}
                     footer='April 4 - September 16, 2022'
                 />
@@ -57,12 +60,13 @@ export default function ExperienceBody() {
                     role='Full Stack Developer'
                     points={[
                         "Utilized REST API to communicate across WhyFit's endpoints and work with third-party applications such as Slack and Microsoft Teams",
-                        "Develop relational databases with PostgreSQL and Ruby On Rails",
-                        "Formulate UI designs with team members to create positive user experiences"
+                        "Queried relational databases with PostgreSQL and Ruby On Rails",
+                        "Formulated UI designs with team members to create positive user experiences"
                     ]}
                     footer='March 29 - September 17, 2021'
                     tools={[
                         "Ruby on Rails",
+                        "Javascript",
                         "Slack API",
                         "Microsoft Teams API",
                     ]}

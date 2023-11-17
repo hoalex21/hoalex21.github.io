@@ -3,7 +3,7 @@ import Back from '../main/Back';
 import Title from "../main/Title";
 
 // Media
-import caltrak from '../media/caltrak1024x500.png';
+import calotrak from '../media/calotrak1024x500.png';
 
 export default function CaloTrak() {
     return (
@@ -12,7 +12,7 @@ export default function CaloTrak() {
             <Back />
             <Title title="CaloTrak" />
             <div class="d-flex justify-content-center">
-                <img class="w-25" src={caltrak} />
+                <img class="w-25" src={calotrak} />
             </div>
             <div className='container bg-light'>
                 <br />

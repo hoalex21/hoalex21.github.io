@@ -12,7 +12,12 @@ export default function AboutBody() {
             <div className='text-center'>
                 <img src={ah} alt='Alex Ho' className='rounded-circle'></img>
                 <br /> <br />
-                <p className='lead'>Computer Science B.S. undergraduate at Drexel University. </p>
+                <p className='lead container'>
+                    Hi!
+                    I'm Alex and I'm currently studying for my B.S. in Computer Science at Drexel University with an anticipated graduation in June 2024.
+                    I have a passion for software and expressing myself creatively through code.
+                    Whether it be a great web experience or a fun game, I hope that there is something that I can provide you through software development.
+                </p>
             </div>
         </div>
     );
