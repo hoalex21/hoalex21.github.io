@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.6584631f.css",
-    "main.js": "/static/js/main.eaf9ae25.js",
+    "main.js": "/static/js/main.70d5fa7d.js",
     "static/media/background.mp4": "/static/media/background.cf4c4bb2dde62f153cc6.mp4",
     "static/media/github.png": "/static/media/github.abb5df5cb6033db6a886.png",
     "static/media/Holman.png": "/static/media/Holman.da162da057171088e11e.png",
     "static/media/WhyFit.png": "/static/media/WhyFit.bc0365e17a71b9221518.png",
     "static/media/VeryBerry.png": "/static/media/VeryBerry.f254e3f8c557b7856cf8.png",
-    "static/media/caltrak1024x500.png": "/static/media/caltrak1024x500.e8c1c9914379563536db.png",
+    "static/media/calotrak1024x500.png": "/static/media/calotrak1024x500.e8c1c9914379563536db.png",
     "static/media/linkedin.png": "/static/media/linkedin.e9db41041d38d6fb97b4.png",
     "static/media/1655484593486.jpg": "/static/media/1655484593486.194dfa0a613ccbcdc5db.jpg",
     "static/media/NeuroFlow.svg": "/static/media/NeuroFlow.0f5f4ccf87548c44246881e0db483cad.svg",
     "static/media/itchio-textless-black.svg": "/static/media/itchio-textless-black.e06a0771d940eea6757d930aaa5cffe2.svg",
     "index.html": "/index.html",
     "main.6584631f.css.map": "/static/css/main.6584631f.css.map",
-    "main.eaf9ae25.js.map": "/static/js/main.eaf9ae25.js.map"
+    "main.70d5fa7d.js.map": "/static/js/main.70d5fa7d.js.map"
   },
   "entrypoints": [
     "static/css/main.6584631f.css",
-    "static/js/main.eaf9ae25.js"
+    "static/js/main.70d5fa7d.js"
   ]
 }
