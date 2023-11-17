@@ -31,7 +31,7 @@ export default function ExperienceBody() {
                         "Pytest",
                         "Gitlab",
                         "Jira",
-                        "TerraForm",
+                        "Terraform",
                         "AWS",
                     ]}
                     footer='April 3 - September 21, 2023'
