@@ -13,7 +13,7 @@ import neuroflow from '../media/NeuroFlow.svg';
 export default function ExperienceBody() {
     return (
         <div className='container'>
-            <h1 className='display-5'>Experience</h1>
+            <h1 className='display-5'>Professional Experience</h1>
             <div className='row row-cols-1 row-cols-md-3'>
                 <ExperienceCard
                     link='https://www.neuroflow.com/'
