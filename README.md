@@ -1,4 +1,7 @@
-https://hoalex21.github.io/
+Hi, I'm Alex and this is the code for my personal site which you can view here: https://hoalex21.github.io/
+I wrote this using React and tested the UI in Java using Selenium.
+
+---
 
 # Getting Started with Create React App
 
