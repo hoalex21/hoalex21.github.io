@@ -2,6 +2,9 @@ package personal.personal;
 
 import org.junit.jupiter.api.Test;
 
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.ValueSource;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,20 +19,28 @@ public class PersonalTest {
     Links links = new Links();
     WebDriver driver = new ChromeDriver();
 
-    @Test
-    public void testBlubbyDodgeLink() {
+    @ParameterizedTest
+    @CsvSource({
+            "Blubby Dodge, #/blubbydodge",
+            "CaloTrak, #/calotrak",
+            "Very Berry, #/veryberry"
+    })
+    public void testPersonalProjectsLinkToRespectiveProjectPage(
+            String linkText,
+            String expectedPath
+    ) {
         try {
             driver.get(links.localUrl);
 
-            WebElement blubbyDodgeLink = driver.findElement(By.linkText("Blubby Dodge"));
+            WebElement link = driver.findElement(By.linkText(linkText));
 
             JavascriptExecutor executor = (JavascriptExecutor) driver;
-            executor.executeScript("arguments[0].click()", blubbyDodgeLink);
+            executor.executeScript("arguments[0].click()", link);
 
             // Clicking did not work. Even when adding explicit and implicit waits.
-            // blubbydodgeLink.click();
+            // link.click();
 
-            assertTrue(driver.getCurrentUrl().endsWith("#/blubbydodge"));
+            assertTrue(driver.getCurrentUrl().endsWith(expectedPath));
         } finally {
             driver.close();
         }
