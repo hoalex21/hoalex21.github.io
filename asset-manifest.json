@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6584631f.css",
-    "main.js": "/static/js/main.be4c3756.js",
+    "main.js": "/static/js/main.54249e72.js",
     "static/media/background.mp4": "/static/media/background.cf4c4bb2dde62f153cc6.mp4",
-    "static/media/background-poster.jpg": "/static/media/background-poster.302dfa71c4e631e1702d.jpg",
     "static/media/github.png": "/static/media/github.abb5df5cb6033db6a886.png",
     "static/media/Holman.png": "/static/media/Holman.da162da057171088e11e.png",
     "static/media/WhyFit.png": "/static/media/WhyFit.bc0365e17a71b9221518.png",
@@ -15,10 +14,10 @@
     "static/media/itchio-textless-black.svg": "/static/media/itchio-textless-black.e06a0771d940eea6757d930aaa5cffe2.svg",
     "index.html": "/index.html",
     "main.6584631f.css.map": "/static/css/main.6584631f.css.map",
-    "main.be4c3756.js.map": "/static/js/main.be4c3756.js.map"
+    "main.54249e72.js.map": "/static/js/main.54249e72.js.map"
   },
   "entrypoints": [
     "static/css/main.6584631f.css",
-    "static/js/main.be4c3756.js"
+    "static/js/main.54249e72.js"
   ]
 }
