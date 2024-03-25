@@ -9,7 +9,7 @@ export default function About() {
 
             <br />
 
-            <div className='container text-center mx-auto'>
+            <div className='text-center px-10'>
                 <p className="text-xl">
                     I'm Alex and I'm currently studying for my B.S. in Computer Science at Drexel University and will be graduating in June 2024.
                     I have a passion for technology and expressing myself creatively through software.
