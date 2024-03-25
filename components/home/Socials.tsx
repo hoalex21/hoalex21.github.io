@@ -2,8 +2,8 @@
 
 export default function Socials() {
     return (
-        <div>
-            <p id='socials' className="text-5xl">Social Media</p>
+        <div id='socials' className="mb-8">
+            <p className="text-5xl">Social Media</p>
 
             <br />
 

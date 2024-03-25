@@ -2,8 +2,8 @@ import ExperienceCard from "../cards/ExperienceCard";
 
 export default function Experience() {
     return (
-        <div>
-            <p id='experience' className='text-5xl'>Professional Experience</p>
+        <div id='experience'>
+            <p className='text-5xl'>Professional Experience</p>
 
             <br />
 

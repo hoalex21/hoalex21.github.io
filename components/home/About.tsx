@@ -1,7 +1,7 @@
 export default function About() {
     return (
-        <div>
-            <p id='about' className="text-5xl">About Me</p>
+        <div id='about'>
+            <p className="text-5xl">About Me</p>
             
             <br />
 

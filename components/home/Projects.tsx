@@ -2,8 +2,8 @@ import ExperienceCard from "../cards/ExperienceCard";
 
 export default function Projects() {
     return (
-        <div>
-            <p id='projects' className="text-5xl">Personal Projects</p>
+        <div id='projects'>
+            <p className="text-5xl">Personal Projects</p>
 
             <br />
 
