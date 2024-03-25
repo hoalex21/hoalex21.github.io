@@ -23,7 +23,7 @@ export default function ExperienceCard(props: Props) {
                 {
                     props.bullets?
                     <ul className="list-disc mx-4">
-                        {props.bullets.map(bullet => <li className="mb-2">{bullet}</li>)}
+                        {props.bullets.map((bullet, i) => <li className="mb-2" key={i}>{bullet}</li>)}
                     </ul>
                     :
                     null
