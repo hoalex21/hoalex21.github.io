@@ -3,7 +3,7 @@ import ExperienceCard from "../cards/ExperienceCard";
 export default function Projects() {
     return (
         <div>
-            <p className="text-5xl">Personal Projects</p>
+            <p id='projects' className="text-5xl">Personal Projects</p>
 
             <br />
 

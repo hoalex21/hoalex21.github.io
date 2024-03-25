@@ -1,7 +1,7 @@
 export default function About() {
     return (
         <div>
-            <p className="text-5xl">About Me</p>
+            <p id='about' className="text-5xl">About Me</p>
 
             <div className="flex justify-center">
                 <img src="/1655484593486.jpg" className="rounded-full" />

@@ -3,7 +3,7 @@ import ExperienceCard from "../cards/ExperienceCard";
 export default function Experience() {
     return (
         <div>
-            <p className='text-5xl'>Professional Experience</p>
+            <p id='experience' className='text-5xl'>Professional Experience</p>
 
             <br />
 
