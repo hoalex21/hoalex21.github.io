@@ -1,4 +1,4 @@
-## hoalex21.github.io
+# hoalex21.github.io
 
 My personal portfolio website. Built using Next.js and deployed to GitHub Pages at [https://hoalex21.github.io/](https://hoalex21.github.io/).
 
