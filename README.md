@@ -1,10 +1,10 @@
-##
+## hoalex21.github.io
 
 My personal portfolio website. Built using Next.js and deployed to GitHub Pages at [https://hoalex21.github.io/](https://hoalex21.github.io/).
 
 ## Getting Started
 
-Before running the development server, install the required dependencies:
+Install the required dependencies:
 
 ```bash
 npm i
