@@ -6,7 +6,14 @@ export default function BlubbyDodge() {
                     <img src='/blubbydodgeicon.png' />
                 </div>
             </div>
-            <div className='container mx-auto bg-white text-black p-4'>
+
+            <div className="flex justify-center">
+                <p className="text-6xl self-center">Blubby Dodge</p>
+            </div>
+
+            <br />
+
+            <div className='container mx-auto bg-white text-black p-4 rounded-md'>
                 <p className="text-4xl pb-2">Description</p>
                 <p>
                     Your reflexes and quick thinking will be put to the ultimate test!
