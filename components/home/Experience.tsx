@@ -7,7 +7,7 @@ export default function Experience() {
 
             <br />
 
-            <div className="grid grid-cols-3 gap-10">
+            <div className="grid grid-cols-3 gap-10 px-10">
                 <ExperienceCard 
                     title='Backend Software Developer' 
                     img='/NeuroFlow.svg'

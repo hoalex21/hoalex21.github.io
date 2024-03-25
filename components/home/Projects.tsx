@@ -7,7 +7,7 @@ export default function Projects() {
 
             <br />
 
-            <div className="grid grid-cols-3 gap-10">
+            <div className="grid grid-cols-3 gap-10 px-10">
                 <ExperienceCard
                     title="Blubby Dodge"
                     img="blubbydodgeicon.png"
@@ -29,7 +29,7 @@ export default function Projects() {
                     img="VeryBerry.png"
                     alt="Very Berry player sprite"
                     description="A class project involving a group of 4. This is a space-shooter bullet hell type game where you operate a strawberry vessel and survive an onslaught of endless blueberry drones. The boss - evil emoji guy - will appear if you survive long enough."
-                    time="Published: June 202"
+                    time="Published: June 2020"
                 />
             </div>
         </div>
