@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function About() {
     return (
         <div>
@@ -19,5 +17,5 @@ export default function About() {
                 </p>
             </div>
         </div>
-    );
+    )
 }
