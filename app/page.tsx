@@ -7,7 +7,7 @@ import Socials from '@/components/home/Socials'
 
 export default function Home() {
   return (
-    <div className='container mx-auto mt-10'>
+    <div className='container px-4 md:px-0 mx-auto mt-10'>
         <About />
         <br />
         <Experience />

@@ -15,7 +15,7 @@ export default function Experience() {
                     img='/NeuroFlow.svg'
                     alt='NeuroFlow Logo'
                     bullets={[
-                        "Migrated the web app's notification functionality from main backend codebase to a micro-service that utilized AWS SQS to poll and send notifications and AWS Elastic Containers for rapid elasticity",
+                        "Migrated the web app's notification functionality from main backend codebase to a micro-service that utilized AWS SQS to poll and send notifications",
                         "Modified Terraform configurations, spun up multiple AWS ECS elastic containers, and developed asynchronous execution that makes the notification service 400% faster",
                         "Investigated and corrected software defects on patient management web app while adding unit and integration tests in Pytest",
                         "Participated in code reviews for pull requests on GitLab and troubleshoot the CI/CD pipeline for incoming merges",
