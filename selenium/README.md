@@ -1,1 +1,0 @@
-Run the tests using `gradlew test`
