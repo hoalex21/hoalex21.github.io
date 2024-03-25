@@ -1,5 +1,7 @@
 interface Props {
     title: string;
+    link?: string;
+    target?: string;
     img: string;
     alt: string;
     bullets?: string[];
@@ -10,9 +12,11 @@ interface Props {
 export default function ExperienceCard(props: Props) {
     return (
         <div className='rounded-md border-solid border-2 border-white relative'>
-            <div className='flex justify-center bg-white p-8'>
-                <img src={props.img} alt={props.alt} className="max-h-36" />
-            </div>
+            <a href={props.link} target={props.target} rel='noreferrer'>
+                <div className='flex justify-center bg-white p-8'>
+                    <img src={props.img} alt={props.alt} className="max-h-36" />
+                </div>
+            </a>
 
             <div className="px-4 py-2 mb-10">
                 <p className='text-2xl m-2'>{props.title}</p>

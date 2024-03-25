@@ -8,8 +8,10 @@ export default function Experience() {
             <br />
 
             <div className="grid grid-cols-3 gap-10 px-10">
-                <ExperienceCard 
-                    title='Backend Software Developer' 
+                <ExperienceCard
+                    title='Backend Software Developer'
+                    link='https://www.neuroflow.com/'
+                    target="_blank"
                     img='/NeuroFlow.svg'
                     alt='NeuroFlow Logo'
                     bullets={[
@@ -21,8 +23,10 @@ export default function Experience() {
                     time="April 3, 2023 - September 21, 2023"
                 />
 
-                <ExperienceCard 
-                    title='Quality Assurance Analyst' 
+                <ExperienceCard
+                    title='Quality Assurance Analyst'
+                    link='https://www.holmanauto.com/'
+                    target="_blank"
                     img='Holman.png'
                     alt='Holman Logo'
                     bullets={[
@@ -33,8 +37,10 @@ export default function Experience() {
                     time="April 4, 2022 - September 16, 2022"
                 />
 
-                <ExperienceCard 
-                    title='Full Stack Developer' 
+                <ExperienceCard
+                    title='Full Stack Developer'
+                    link='https://www.why.fit/'
+                    target="_blank"
                     img='WhyFit.png'
                     alt='WhyFit Logo'
                     bullets={[
