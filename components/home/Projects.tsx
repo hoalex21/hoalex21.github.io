@@ -7,7 +7,7 @@ export default function Projects() {
 
             <br />
 
-            <div className="grid grid-cols-3 gap-10 px-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:px-10">
                 <ExperienceCard
                     title="Blubby Dodge"
                     link="/projects/blubbydodge"
