@@ -9,6 +9,7 @@ export default function NavBar() {
 
                 <div className="flex justify-center items-center gap-8 md:visible invisible">
                     <a href="/#about" className="hover:text-gray-300">About</a>
+                    <a href="/#education" className="hover:text-gray-300">Education</a>
                     <a href="/#experience" className="hover:text-gray-300">Experience</a>
                     <a href="/#projects" className="hover:text-gray-300">Projects</a>
                     <a href="/#socials" className="hover:text-gray-300">Socials</a>

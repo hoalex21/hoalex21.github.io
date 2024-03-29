@@ -1,4 +1,5 @@
 import About from '@/components/home/About'
+import Education from '@/components/home/Education';
 import Experience from '@/components/home/Experience'
 import Projects from '@/components/home/Projects'
 import Socials from '@/components/home/Socials'
@@ -8,6 +9,8 @@ export default function Home() {
     <>
       <div className='container px-4 md:px-0 mx-auto mt-10'>
           <About />
+          <br />
+          <Education />
           <br />
           <Experience />
           <br />
